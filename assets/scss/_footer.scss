@@ -1,0 +1,30 @@
+footer {
+    background-color: #161B30;
+    padding: 15px 0;
+}
+.footer__logo img {
+    width: 132px;
+    height: 100px;
+    object-fit: contain;
+}
+.footer__logo {
+    color: #FFF;
+    font-weight: 400;
+    font-size: 16px;
+}
+.footer__social__icons {
+    gap: 25px;
+}
+.footer__social__icons a {
+    display: flex;
+}
+.footer__contact__wrap a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    transition: 250ms all ease-in;
+}
+.footer__contact__wrap a:hover {
+    opacity: 0.7;
+}

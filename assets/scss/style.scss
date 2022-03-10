@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@import "_reset";
+
+body, html {
+  min-height: 100vh;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+@font-face {
+  font-family: "chaneyultra_extended";
+  src: url("../fonts/chaney-ultraextended-webfont.eot");
+  src: url("../fonts/chaney-ultraextended-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/chaney-ultraextended-webfont.woff2") format("woff2"),
+    url("../fonts/chaney-ultraextended-webfont.woff") format("woff"),
+    url("../fonts/chaney-ultraextended-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: CeraProMed;
+  src: url("../fonts/cera-pro-medium.otf") format("opentype");
+}
+
+@import "_header";
+@import "_main-section";
+@import "_rewards";
+@import "_footer";
+@import "_layout";

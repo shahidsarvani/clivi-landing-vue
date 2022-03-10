@@ -1,0 +1,19 @@
+@media(min-height: 800px) and (min-width: 1580px) {
+    .header {
+        height: 12vh;
+    }
+    .main_section {
+        min-height: 70vh;
+    }
+    footer {
+        min-height: 18vh;
+        display: flex;
+        align-items: center;
+    }
+    .header__wrapper {
+        height: 100%;
+    }
+    body, html {
+        overflow: hidden;
+    }
+}

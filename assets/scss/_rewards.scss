@@ -1,0 +1,69 @@
+.rewards__sec {
+  background-color: #0d1221;
+  .title_rewards {
+    border-bottom: 1px solid #2f3656;
+    padding-bottom: 10px;
+    width: 60%;
+  }
+  .txt-reward {
+    font-size: 20px;
+    font-family: chaneyultra_extended;
+  }
+
+  h2.txt-neon {
+    color: #32cde8;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: chaneyultra_extended;
+  }
+
+  .description h4.text-light {
+    font-size: 30px;
+  }
+
+  .reward__card {
+    background: #161b30;
+    min-height: 310px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 12px;
+    .text__neon {
+      color: #32cde8;
+      line-height: 25px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .reward__card {
+    margin-bottom: 15px;
+  }
+
+  .title_rewards {
+    width: 95% !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .reward__card {
+    margin-bottom: 15px;
+  }
+
+  .title_rewards {
+    border-bottom: 1px solid #2f3656;
+    padding-bottom: 10px;
+    width: 100% !important;
+    .txt-reward {
+      font-size: 22px;
+    }
+    h2.txt-neon {
+      color: #32cde8;
+      text-transform: uppercase;
+      font-size: 22px;
+    }
+  }
+}

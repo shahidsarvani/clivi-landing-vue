@@ -1,0 +1,36 @@
+.header {
+  background-color: #161b30;
+  height: 100px;
+  width: 100%;
+}
+.header__logo {
+  width: 133px;
+}
+.btn__wrap {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: capitalize;
+  border: 2px solid #2f3656;
+  background-color: #1d233d;
+  transition: 250ms all ease-in;
+}
+.btn__wrap:hover {
+  color: #fff;
+  opacity: 0.7;
+}
+
+@media (max-width: 1024px) {
+ 
+}
+
+@media (max-width: 767px) {
+  .header {
+    height: 100%;
+  }
+  .header__logo {
+    width: 100%;
+  }
+}
